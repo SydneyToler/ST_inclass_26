@@ -1,0 +1,18 @@
+---
+title: "inclass_26_rmd"
+author: "Sydney Toler"
+date: "4/22/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+Y<- rnorm( 100)
+hist( Y)
+
+knitr::include_graphics('./Gauss.jpg')
+```
+
