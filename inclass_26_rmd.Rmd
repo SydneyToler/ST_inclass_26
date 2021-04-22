@@ -12,5 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 Y<- rnorm( 100)
 hist( Y)
+
+knitr::include_graphics('./Gauss.jpg')
 ```
 
